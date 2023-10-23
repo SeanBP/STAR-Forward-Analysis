@@ -555,8 +555,8 @@ module TreeWriter TreeWriter {
 
 # add Branch InputArray BranchName BranchClass
 
-  add Branch Delphes/allParticles Particle GenParticle
-
+  #add Branch Delphes/allParticles Particle GenParticle
+  add Branch Delphes/stableParticles Particle GenParticle
   add Branch ECal/ecalTowers ECal Tower
   add Branch HCal/hcalTowers HCal Tower
 
